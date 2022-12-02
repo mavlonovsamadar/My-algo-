@@ -12,12 +12,13 @@
 
 /////////////////////////////////////////////////////////////
 
-// function getInfo() {
-//     let data = {
-//         a: "Samandar",
-//         b: 30,
-//         c: "nexia-3"
-//     }
-//     return `Mening ismim ${data.a}. yoshim ${data.b}da va Moshinam ${data.c}.`
-// }
-// alert(getInfo());
+function getInfo(a, b, c) {
+    let data = {
+        a: a,
+        b: b,
+        c: c
+    }
+   
+    return `Mening ismim ${data.a}. yoshim ${data.b}da va Moshinam ${data.c}.`
+}
+alert(getInfo("Samandar", 30, "nexia-3"));
